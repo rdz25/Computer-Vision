@@ -1,0 +1,14 @@
+path: /content/drive/MyDrive/Colab Notebooks/207_Project/dataset_merged_5
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 13
+names: ['aircraft', 'baggage_truck', 'bus', 'fuel_truck', 'ground_power', 'person', 'rolling_stairway', 'ramp_loader', 'stairway', 'bridge_connected', 'catering_truck', 'fueling', 'pushback_tractor']
+
+roboflow:
+  workspace: aircraftturnaround
+  project: aircraftturnaround_final2
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/aircraftturnaround/aircraftturnaround_final2/dataset/1
